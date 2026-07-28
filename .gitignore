@@ -1,0 +1,18 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Secrets and database
+.env
+*.db
+
+# React / Node
+frontend/node_modules/
+frontend/dist/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Generated ML artifacts
+models/*.pkl
